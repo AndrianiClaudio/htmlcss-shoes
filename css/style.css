@@ -21,29 +21,33 @@
 /* FINE blocchi container */
    
 .container.red .container-shoes {
-/* centra contenuto */
+    width: 50vw;
+    overflow: hidden;       /* evita sfondo bianco durante eccessivo ridimensionamento pagina */
+    /* centramento */
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    /* FIE centra contenuto */
+    /* centramento */
 }
 
 /* immagine della scarpa */
 .container-shoes .shoes-img {
-    text-align: center;
+    /* float:left; */
+    width: 50vw;
 }
 /* FINE immagine della scarpa */
 
 /* Tnome della scarpa */
 .container-shoes .shoes-title {
+    font-size: 3.2em;
+    text-transform: uppercase;
+    font-family: 'Lilita One', cursive;
+    color: yellow;
+    font-weight: bold;
+    line-height: 1em;
+    word-spacing: 1em;
     display: block;
     text-align: center;
-    font-size: 3em;
-    text-transform: uppercase;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: yellow;
-    line-height: 1em;
-    font-weight: bold;
 }
 /* FINE nome della scarpa */
