@@ -8,6 +8,7 @@
 .container {
     position: relative;
     height: 100vh;
+    font-family: 'Lilita One', cursive;
 }
 .container.red {
     background-color: red;
@@ -19,11 +20,10 @@
     background-color: yellow;
 }
 /* FINE blocchi container */
-   
+
 .container .container-shoes {
     width: 50vw;
-    overflow: hidden;       /* evita sfondo bianco durante eccessivo ridimensionamento pagina */
-    /* centramento */
+    overflow: hidden;
     position: absolute;
     top:50%;
     left:50%;
@@ -40,15 +40,15 @@
 
 /* Tnome della scarpa */
 .container-shoes .shoes-title {
-    font-size: 3.2em;
-    text-transform: uppercase;
-    font-family: 'Lilita One', cursive;
-    color: yellow;
-    font-weight: bold;
-    line-height: 1em;
-    word-spacing: 1em;
     display: block;
+    color: yellow;
+    font-size: 3.9vw;
+    font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    word-spacing: 0.4em;
+    letter-spacing: 0.1em;
 }
 .container.yellow .container-shoes .shoes-title {
     color: green;
