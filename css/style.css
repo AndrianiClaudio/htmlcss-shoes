@@ -20,7 +20,7 @@
 }
 /* FINE blocchi container */
    
-.container.red .container-shoes {
+.container .container-shoes {
     width: 50vw;
     overflow: hidden;       /* evita sfondo bianco durante eccessivo ridimensionamento pagina */
     /* centramento */
@@ -49,5 +49,8 @@
     word-spacing: 1em;
     display: block;
     text-align: center;
+}
+.container.yellow .container-shoes .shoes-title {
+    color: green;
 }
 /* FINE nome della scarpa */
