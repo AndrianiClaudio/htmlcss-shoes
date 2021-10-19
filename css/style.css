@@ -3,3 +3,47 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/* blocchi container */
+.container {
+    position: relative;
+    height: 100vh;
+}
+.container.red {
+    background-color: red;
+}
+.container.green {
+    background-color: green;
+}
+.container.yellow {
+    background-color: yellow;
+}
+/* FINE blocchi container */
+   
+.container.red .container-shoes {
+/* centra contenuto */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* FIE centra contenuto */
+}
+
+/* immagine della scarpa */
+.container-shoes .shoes-img {
+    text-align: center;
+}
+/* FINE immagine della scarpa */
+
+/* Tnome della scarpa */
+.container-shoes .shoes-title {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellow;
+    line-height: 1em;
+    font-weight: bold;
+}
+/* FINE nome della scarpa */
