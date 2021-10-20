@@ -1,0 +1,93 @@
+* {
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lilita One', cursive;
+}
+a {
+    text-decoration: none;
+    color:black
+}
+
+/* spostamento soft */
+html.scroll-smooth {
+    scroll-behavior: smooth;
+}
+/* FINE spostamento soft */
+/* ombreggiatura pallini */
+.go-to-id-list .id-item.box-shadow {
+    width: 3em;
+    height: 3em;
+    border-radius:50%;
+    box-shadow: 0 0 0 2px black;
+}
+/* FINE ombreggiatura pallini */
+
+/* lista link scroll pagina */
+.go-to-id-list {
+	position: fixed;
+	top: 50px;
+	right: 0px;
+	z-index: 10;
+}
+.go-to-id-list .id-item {
+    display: inline-block;
+	background-color: lightgrey;
+	margin: auto 20px;
+}
+
+.go-to-id-list .id-item a {
+    display: block;
+    padding: 15px 19.5px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/* FINE lista link scroll pagina */
+
+/* blocchi container */
+.container {
+    position: relative;
+    height: 100vh;
+}
+.container.red {
+    background-color: red;
+}
+.container.green {
+    background-color: green;
+}
+.container.yellow {
+    background-color: yellow;
+}
+/* FINE blocchi container */
+
+.container .container-shoes {
+    width: 50vw;
+    overflow: hidden;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* centramento */
+}
+/* immagine della scarpa */
+.container-shoes .shoes-img {
+    width: 50vw;
+}
+/* FINE immagine della scarpa */
+
+/* Tnome della scarpa */
+.container-shoes .shoes-title {
+    color: yellow;
+    font-size: 3.9vw;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    word-spacing: 0.4em;
+    letter-spacing: 0.1em;
+}
+.container.yellow .container-shoes .shoes-title {
+    color: green;
+}
+/* FINE nome della scarpa */
